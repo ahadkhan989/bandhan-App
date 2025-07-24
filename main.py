@@ -55,17 +55,6 @@ def send_whatsapp_mesg(to_number: str, message_text: str) -> dict:
 
 # Streamlit UI
 st.set_page_config(page_title="Rishta Connect", page_icon="💍")
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #F5F5F5;  
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 st.title("Bandhan App 💍")
 st.markdown("Find your perfect partner with an AI-generated profile tailored to you, delivered to your WhatsApp.")
 
